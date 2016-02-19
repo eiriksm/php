@@ -17,6 +17,10 @@ env:
     - DOCKERFILE="dev/5.5"
     - DOCKERFILE="dev/5.6"
     - DOCKERFILE="dev/7"
+    - DOCKERFILE="cli/5.4"
+    - DOCKERFILE="cli/5.5"
+    - DOCKERFILE="cli/5.6"
+    - DOCKERFILE="cli/7"
 
 before_script:
   - docker version
